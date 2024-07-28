@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rock+Salt&family=Rubik+Mono+One&family=Shadows+Into+Light&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #1a222c;
+  background-image: url("https://images.unsplash.com/photo-1651647232601-fbea5b6cca0d?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover; /* Change from cover to contain */
+  background-position: center; /* Ensures the image is centered */
+  background-repeat: repeat; /* Prevents the image from repeating */
+
+  z-index: -1;
+}
+
+.nav-bg {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0px 0px 16px 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+}
+
+.hero-text {
+  font-weight: 900;
+  /* font-size: 70px; */
+  font-family: "Rock Salt", cursive;
+}
+
+.hero-text:nth-child(2) {
+  font-weight: 100;
+  font-family: "Rubik Mono One", monospace;
+}
+
+.hero-text:last-child {
+  font-size: 18px;
+  font-weight: 100;
+  font-family: "Rubik Mono One", monospace;
+}
+
+/* custom-styles.css */
+
+@media (min-width: 1024px) {
+  .custom-lg-styles {
+    @apply p-6 max-w-4xl mx-auto border-2 border-white; /* Default styles */
+  }
+  .custom-lg-styles {
+    background: rgba(13, 164, 198, 0.37);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.3px);
+    -webkit-backdrop-filter: blur(8.3px);
+  }
+}
+
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #2098d1;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before,
+.hvr-underline-from-left:focus:before,
+.hvr-underline-from-left:active:before {
+  right: 0;
+}
+
+.git-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.6px);
+  -webkit-backdrop-filter: blur(8.6px);
+}
+
+.git-card:nth-child(2),
+.git-card:nth-child(3) {
+  /* background-color: #1a222c; */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+
+.chart-bg {
+  background: rgba(255, 255, 255, 0.61);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.4px);
+  -webkit-backdrop-filter: blur(2.4px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.about-bg {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.6px);
+  -webkit-backdrop-filter: blur(8.6px);
+}
