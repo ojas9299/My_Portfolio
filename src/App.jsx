@@ -21,7 +21,9 @@ function App() {
       <div id="skills">
         <Skills />
       </div>
-      <HorizontalBars />
+      <div className="xs:hidden sm:block">
+        <HorizontalBars />
+      </div>
       <div id="projects">
         <GitHubProfile />
       </div>

@@ -9,7 +9,7 @@ const chartSetting = {
       label: "SKILLS",
     },
   ],
-  width: 450,
+  width: 400,
 
   height: 450,
 };
@@ -19,7 +19,7 @@ const valueFormatter = (value) => `${value}% Use Case`;
 export default function BasicPie() {
   return (
     <>
-      <div className="overflow-hidden lg:flex mb-32 rounded-3xl  lg:mx-20 mx-10 py-10 chart-bg">
+      <div className=" overflow-hidden lg:flex mb-32 rounded-3xl  lg:mx-20 mx-4 sm:mx-10 py-10 chart-bg">
         <div className=" lg:mx-6 lg:px-32 lg:py-20 mb-24 rounded-full ">
           <PieChart
             series={[
@@ -32,11 +32,11 @@ export default function BasicPie() {
                 ],
               },
             ]}
-            width={400}
+            width={370}
             height={200}
           />
         </div>
-        <div className=" lg:block mx-6 lg:mx-10 rounded-xl ">
+        <div className=" lg:block mx-2 sm:mx-6 lg:mx-10 rounded-xl px-4">
           <BarChart
             dataset={dataset}
             yAxis={[

@@ -9,8 +9,7 @@ body {
   background-size: cover; /* Change from cover to contain */
   background-position: center; /* Ensures the image is centered */
   background-repeat: repeat; /* Prevents the image from repeating */
-
-  z-index: -1;
+  overflow-x: hidden;
 }
 
 .nav-bg {

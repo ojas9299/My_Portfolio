@@ -8,13 +8,13 @@ export default function About() {
   }
 
   return (
-    <div className=" grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-4 p-5 mx-5 lg:mx-20 mt-36 lg:mt-32 ">
+    <div className=" grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-4 p-5 mx-0 sm:mx-5 lg:mx-20 mt-20 lg:mt-32 ">
       <div
         className=" rounded-2xl text-white 
       lg:h-[700px]  h-[650px] about-bg"
       >
         <img
-          className="h-[500px] lg:h-[500px] w-full mx-auto py-10 px-5 lg:px-0 object-contain rounded-full"
+          className="h-[450px] sm:h-[500px]  w-full mx-auto py-10 px-5 lg:px-0 object-contain rounded-full"
           src="https://i.ibb.co/VLMS4k0/business-3d-young-man-standing-with-laptop.png"
           alt="Profile"
         />
@@ -31,7 +31,7 @@ export default function About() {
         </div>
       </div>
       <div className=" text-white   col-span-1">
-        <div className=" px-10 py-10 rounded-xl about-bg">
+        <div className="px-6 sm:px-10 py-10 rounded-xl about-bg">
           <h1 className="text-3xl font-bold my-3 font-Rubik_Mono_One hvr-underline-from-left ">
             About Me
           </h1>
@@ -41,19 +41,19 @@ export default function About() {
           <div className="hover:text-yellow-400">
             <p className="text-md leading-relaxed mb-4 tracking-wider font-Rubik_Mono_One">
               I'm a Computer Science student completing my Bachelor of
-              Engineering at SMT Kashibai Navle College of Engineering.
+              Engineering at smt Kashibai Navle College of Engineering Pune.
             </p>
             <p className="leading-relaxed mb-4 tracking-wider ">
-              Develop highly interactive Front end / User Interfaces for your
-              web and mobile applications
+              Develop highly interactive Frontend & User Interfaces for your web
+              and mobile applications
             </p>
             <p className="leading-relaxed mb-4 tracking-wider ">
-              My expertise extends to developing robust back-end systems
-              ensuring your applications run smoothly and efficiently.
+              My expertise extends to developing robust backend systems ensuring
+              your applications run smoothly and efficiently.
             </p>
             <p className="leading-relaxed mb-4 tracking-wider ">
               Utilizing cloud platforms and modern databases to deliver
-              high-performance, reliable applications with React and Express.
+              high-performance & reliable applications with React and Node.js.
             </p>
           </div>
         </div>

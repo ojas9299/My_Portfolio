@@ -51,8 +51,8 @@ export default function Skills() {
   ];
   return (
     <>
-      <div className="mt-32 lg:mx-12 px-10 my-40 ">
-        <h1 className="hvr-underline-from-left text-white font-rubik-mono-one tracking-[10px] font-extrabold text-2xl mb-32 ml-7">
+      <div className="mt-20 lg:mx-12 px-10 my-40 ">
+        <h1 className="hvr-underline-from-left text-white font-rubik-mono-one tracking-[10px] font-extrabold text-2xl mb-20 ml-7">
           Skills
         </h1>
         <div className="grid grid-cols-2 lg:grid-cols-6 sm:grid-cols-6 gap-5  text-white b">

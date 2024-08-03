@@ -49,11 +49,11 @@ const GitHubProfile = () => {
   return (
     <div className="flex mb-36 text-white">
       <div>
-        <h1 className="lg:mx-20 ml-12 mb-32 text-4xl font-bold font-rock-salt tracking-widest text-center">
+        <h1 className="lg:mx-20 mb-32 text-4xl font-bold font-rock-salt tracking-widest text-center">
           Projects
         </h1>
         {error && <p className="text-red-500 text-center">Error: {error}</p>}
-        <div className="repos grid grid-cols-1 lg:grid-cols-2 lg:mx-20 gap-20 lg:gap-14 mx-12">
+        <div className="repos grid grid-cols-1 lg:grid-cols-2 lg:mx-20 gap-20 lg:gap-14 mx-5">
           {filteredRepos.map((repo) => (
             <div
               className="repo border-2 p-5 lg:pb-10 lg:px-10 border-white rounded-2xl git-card"
@@ -62,7 +62,7 @@ const GitHubProfile = () => {
               <h2 className="my-5 text-3xl font-bold font-Rubik_Mono_One hover:text-red-400 hvr-underline-from-left">
                 {repo.name}
               </h2>
-              <p className="my-10 hover:text-yellow-300 text-lg">
+              <p className="my-8  hover:text-yellow-300 text-lg">
                 {repo.description}
               </p>
               <a

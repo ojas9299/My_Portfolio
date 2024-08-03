@@ -10,6 +10,9 @@ export default {
         "rock-salt": ['"Rock Salt"', "cursive"],
         "shadows-into-light": ['"Shadows Into Light"', "cursive"],
       },
+      screens: {
+        xs: "320px", // Define your custom breakpoint value
+      },
     },
   },
   plugins: [],
