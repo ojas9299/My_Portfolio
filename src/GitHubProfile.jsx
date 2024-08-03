@@ -40,8 +40,8 @@ const GitHubProfile = () => {
   const filteredRepos = repos.filter((repo) =>
     [
       "Project_Localite",
-      "Student-Database-Management-APP",
-      "Code-Coffee-FE-PBL-Project-",
+      "Student_Database_Management_APP",
+      "Code-Coffee-",
       "React-calculator",
     ].includes(repo.name)
   );
